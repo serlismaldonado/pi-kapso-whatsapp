@@ -1,0 +1,49 @@
+{
+  "name": "pi-kapso-whatsapp",
+  "version": "1.0.0",
+  "description": "Pi extension for WhatsApp via Kapso AI — contacts access control with SQLite",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "image": "https://raw.githubusercontent.com/serlismaldonado/pi-kapso-whatsapp/main/docs/screenshot.png"
+  },
+  "keywords": [
+    "pi-extension",
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "whatsapp",
+    "kapso",
+    "sqlite",
+    "contacts"
+  ],
+  "author": "Serlis Maldonado",
+  "license": "MIT",
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.70.2",
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serlismaldonado/pi-kapso-whatsapp.git"
+  }
+}
