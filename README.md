@@ -3,7 +3,7 @@
 Pi coding agent extension for WhatsApp via [Kapso AI](https://kapso.ai).  
 Gives Pi a full set of WhatsApp tools: send messages, manage contacts, control the webhook service, set up Cloudflare tunnels, and handle incoming messages with access control.
 
-Works together with [pi-whatsapp-service](https://github.com/serlismaldonado/pi-whatsapp-service) — the always-on webhook receiver that routes incoming messages to Pi.
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I3177MUT)
 
 ---
 
@@ -28,7 +28,7 @@ Then reload Pi's extensions.
 
 Once installed, tell Pi:
 
-> "Activa el bot de WhatsApp"
+> "Set up the WhatsApp bot"
 
 Pi will run the full autonomous setup — no questions, no manual steps:
 
