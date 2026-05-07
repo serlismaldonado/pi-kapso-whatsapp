@@ -16,6 +16,14 @@
     ],
     "image": "https://raw.githubusercontent.com/serlismaldonado/pi-kapso-whatsapp/main/docs/screenshot.png"
   },
+  "files": [
+    "index.ts",
+    "db.ts",
+    "skills/",
+    "SYSTEM.md",
+    "PROMPT.md",
+    "README.md"
+  ],
   "keywords": [
     "pi-extension",
     "pi-package",
@@ -24,7 +32,10 @@
     "whatsapp",
     "kapso",
     "sqlite",
-    "contacts"
+    "contacts",
+    "whatsapp-bot",
+    "chatbot",
+    "ai"
   ],
   "author": "Serlis Maldonado",
   "license": "MIT",
