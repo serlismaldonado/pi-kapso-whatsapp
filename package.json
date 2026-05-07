@@ -1,6 +1,6 @@
 {
   "name": "pi-kapso-whatsapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pi extension for WhatsApp via Kapso AI — contacts access control with SQLite",
   "type": "module",
   "main": "index.ts",
